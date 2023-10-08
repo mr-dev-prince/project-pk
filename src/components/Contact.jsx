@@ -34,15 +34,15 @@ const Contact = () => {
   return (
     <div
       id="Contact"
-      className=" pt-24 md:pl-64 mt-8 grid md:flex flex-col justify-center items-center gap-9 mb-12"
+      className=" pt-24 mt-8 grid md:flex flex-col justify-center items-center gap-9 mb-12"
     >
-      <p className=" text-center text-5xl font-semibold">Contact Us</p>
-      <div className="flex flex-col md:flex-row justify-center items-center gap-12 ">
-        <div>
+      <p className=" text-center text-5xl pb-8 font-semibold">Book a Call Now!</p>
+      <div className="flex flex-col md:pl-24 md:w-full md:flex-row justify-center items-center gap-24 ">
+        <div> 
           <form
             ref={form}
             onSubmit={sendEmail}
-            className=" flex flex-col gap-6 w-80 bg-[#7fc37e] p-4 rounded-md"
+            className=" flex flex-col gap-6 w-96 bg-[#7fc37e] p-4 rounded-md"
           >
             <div className="flex flex-col gap-1">
               <label className=" font-semibold">Your Name</label>
@@ -81,16 +81,15 @@ const Contact = () => {
           </form>
         </div>
         <div className="flex flex-col gap-12 ">
-          <div className=" md:flex flex-col gap-6 hidden">
+          <div className=" md:flex flex-col gap-2 hidden">
             <p className=" font-semibold text-xl">
-              Tell us how we can help you.
+              Reach out now and let's make it happen! 
+            
             </p>
-            <p>
-              if you like to work with us then drop us a message using the
-              contact form.
+            <p className="text-xl">
+              Contact LoopiEmail for services that take your success to the next level.
             </p>
-            <p>or get in touch using email, instagram or whatsapp number.</p>
-            <p>See you!</p>
+            <p className=" text-xl">See you!</p>
           </div>
 
           <div className=" text-xl tracking-wider ">
@@ -103,7 +102,7 @@ const Contact = () => {
               loopie.mail
             </p>
             <p className="flex items-center gap-5">
-              <BsWhatsapp /> +078 9123 45434
+              <BsWhatsapp /> +91 8305401380
             </p>
           </div>
         </div>

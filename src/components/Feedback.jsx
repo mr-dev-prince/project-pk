@@ -3,7 +3,7 @@ import pic1 from "../assets/keshav.jpg";
 
 const Feedback = () => {
   return (
-    <div className=" mt-8 ">
+    <div className=" mt-8 hidden">
       <p className="text-center text-4xl mb-4">Client Testomonials</p>
       <div className=" w-full md:flex flex-wrap bg-[#dff4f5] md:pl-44 md:pr-44 justify-center items-center">
         <div className="md:w-[40%] p-8">

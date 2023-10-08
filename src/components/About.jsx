@@ -22,11 +22,11 @@ const About = () => {
       <div className=" w-full">
         <div className=" flex flex-col justify-center items-center p-4">
           <p className=" text-5xl font-bold">Work With Us</p>
-          <p className="mt-12 tracking-wider text-center w-[60%]">
+          <p className="mt-12 tracking-wider text-center w-[60%] text-xl">
             At LoopiEmail, We are more than just email marketing experts. We're passionate about helping business thrive through effective email marketing campaigns.
           </p>
         </div>
-        <div className=" md:pl-56 md:pr-44 p-8 flex flex-col md:flex-row gap-12 select-none">
+        <div className=" md:pl-16 md:pr-12 p-8 flex flex-col md:flex-row gap-12 select-none">
           <div className=" h-64 rounded-xl w-full bg-[#7fc37e] flex flex-col items-center p-8 gap-6">
             <Palette size={"48px"} />
             <p className=" text-2xl font-semibold tracking-wider">Design</p>
@@ -54,20 +54,20 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className=" w-full md:flex md:flex-row-reverse md:pl-44 md:pr-44 mt-12 ">
+      <div className=" w-full md:flex md:flex-row-reverse md:pl-12 md:pr-12 justify-center items-center mt-12">
         <div className=" mt-12 flex justify-center items-center ">
-          <img className=" h-[70%]" src={svg3} alt="" />
+          <img className=" h-[90%]" src={svg3} alt="" />
         </div>
-        <div className="mt-4 p-8 md:w-[70%]">
+        <div className="mt-4 p-8 md:w-[80%]">
           <p className="text-2xl font-bold tracking-wide">
             Let our team handle all the work and serve your needs.
           </p>
-          <p className="mt-8 md:mt-12">
+          <p className="mt-8 md:mt-12 text-xl">
             Leave the heavy lifting to us. At LoopiEmail, our dedicated team is here to handle all the work and serve your needs. Your success is our mission and we are ready to roll up our sleeves and get to work for you!
           </p>
 
           <div className=" mt-8 md:mt-12 flex flex-col gap-8 md:grid md:grid-cols-2">
-            <div className=" h-12 w-full outline outline-1 rounded-lg flex items-center p-4  ">
+            <div className=" h-12 w-full md:w-56 outline outline-1 rounded-lg flex items-center p-4  ">
               <img src={svg4} alt="" />
               <p className="capitalize ml-8 ">Active collaboration</p>
             </div>
@@ -88,13 +88,13 @@ const About = () => {
       </div>
       <div className=" w-full md:pl-44 md:pr-44 md:flex mt-24 gap-12">
         <div className=" flex justify-center items-center">
-          <img className=" h-[70%]" src={svg5} alt="" />
+          <img className="h-[80%] w-[180%]" src={svg5} alt="" />
         </div>
-        <div className="mt-4 p-8 ">
+        <div className="mt-4 p-8">
           <p className="text-3xl font-bold tracking-wide">
             We deliver the best in class result.
           </p>
-          <p className="mt-8 md:mt-12">
+          <p className="mt-8 md:mt-12 text-xl">
             Our work is the best in the buisness. You can trust us with your
             eyes shut. We are trusted by some of the most renowned organisations
             in the market.
@@ -133,7 +133,7 @@ const About = () => {
           <p className="text-3xl font-bold tracking-wide">
             We believe in Long Term Partnership.
           </p>
-          <p className="mt-8 mb-12">
+          <p className="mt-8 mb-12 text-xl">
             At LoopiEmail, we're not just about quick wins; we're here for the long haul. We are committed to building lasting parterships that drives success!
           </p>
           <BasicTabs />
