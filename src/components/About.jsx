@@ -19,10 +19,10 @@ import BasicTabs from "./BasicTabs";
 
 const About = () => {
   return (
-    <div id="about">
+    <div id="About" className="pt-24">
       <div className=" w-full">
         <div className=" flex flex-col justify-center items-center p-4">
-          <p className=" text-3xl font-bold">Work With Us</p>
+          <p className=" text-5xl font-bold">Work With Us</p>
           <p className="mt-12 tracking-wider text-center w-[60%]">
             Leverage agile frameworks to provide a robust synopsis for high
             level overviews. Iterative approaches to corporate strategy foster
@@ -30,14 +30,14 @@ const About = () => {
           </p>
         </div>
         <div className=" md:pl-56 md:pr-44 p-8 flex flex-col md:flex-row gap-12 select-none">
-          <div className=" h-64 rounded-xl w-full bg-slate-200 flex flex-col items-center p-8 gap-6">
+          <div className=" h-64 rounded-xl w-full bg-[#73e3e9] flex flex-col items-center p-8 gap-6">
             <Palette size={"48px"} />
             <p className=" text-2xl font-semibold tracking-wider">Design</p>
             <p>
               Get modern designs made by us and engage more users than ever.
             </p>
           </div>
-          <div className=" h-64 rounded-xl w-full bg-slate-200 flex flex-col items-center p-8 gap-6">
+          <div className=" h-64 rounded-xl w-full bg-[#73e3e9] flex flex-col items-center p-8 gap-6">
             <MessageSquarePlus size={"48px"} />
             <p className=" text-2xl font-semibold tracking-wider">Feedback</p>
             <p>
@@ -45,12 +45,12 @@ const About = () => {
               thoughts.
             </p>
           </div>
-          <div className=" h-64 rounded-xl w-full bg-slate-200 flex flex-col items-center p-8 gap-6">
+          <div className=" h-64 rounded-xl w-full bg-[#73e3e9] flex flex-col items-center p-8 gap-6">
             <CalendarCheck size={"48px"} />
             <p className=" text-2xl font-semibold tracking-wider">Execution</p>
             <p>High priority execution without any hussle.</p>
           </div>
-          <div className=" h-64 rounded-xl w-full bg-slate-200 flex flex-col items-center p-8 gap-6">
+          <div className=" h-64 rounded-xl w-full bg-[#73e3e9] flex flex-col items-center p-8 gap-6">
             <Users2 size={"48px"} />
             <p className=" text-2xl font-semibold tracking-wider">Support</p>
             <p>24x7 peer-to-peer support.</p>
@@ -155,7 +155,7 @@ const About = () => {
         </div>
       </div>
       <div className=" w-full flex flex-col justify-center items-center mt-24 mb-10">
-        <p className="text-3xl font-semibold">Trusted By</p>
+        <p className="text-4xl font-semibold">Trusted By</p>
         <p className="p-8 text-center text-xl tracking-wide">
           Collaboratively administrate empowered markets via plug-and-play
           networks.
