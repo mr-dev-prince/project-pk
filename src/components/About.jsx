@@ -5,16 +5,15 @@ import {
   Users2,
 } from "lucide-react";
 import React from "react";
-import svg3 from "../assets/development.svg";
+import svg3 from "../assets/illus1.png";
 import svg4 from "../assets/icons8-ok.svg";
-import svg5 from "../assets/creative-team.svg";
-import svg6 from "../assets/work-chat.svg";
+import svg5 from "../assets/illus4.png";
+import svg6 from "../assets/illus3.png";
 import logo1 from "../assets/logo1.png";
 import logo2 from "../assets/logo2.png";
 import logo3 from "../assets/logo3.png";
 import logo4 from "../assets/logo4.png";
 import logo5 from "../assets/logo5.png";
-import { Slider } from "@mui/material";
 import BasicTabs from "./BasicTabs";
 
 const About = () => {
@@ -24,20 +23,18 @@ const About = () => {
         <div className=" flex flex-col justify-center items-center p-4">
           <p className=" text-5xl font-bold">Work With Us</p>
           <p className="mt-12 tracking-wider text-center w-[60%]">
-            Leverage agile frameworks to provide a robust synopsis for high
-            level overviews. Iterative approaches to corporate strategy foster
-            collaborative thinking to further the overall value proposition.
+            At LoopiEmail, We are more than just email marketing experts. We're passionate about helping business thrive through effective email marketing campaigns.
           </p>
         </div>
         <div className=" md:pl-56 md:pr-44 p-8 flex flex-col md:flex-row gap-12 select-none">
-          <div className=" h-64 rounded-xl w-full bg-[#73e3e9] flex flex-col items-center p-8 gap-6">
+          <div className=" h-64 rounded-xl w-full bg-[#7fc37e] flex flex-col items-center p-8 gap-6">
             <Palette size={"48px"} />
             <p className=" text-2xl font-semibold tracking-wider">Design</p>
             <p>
               Get modern designs made by us and engage more users than ever.
             </p>
           </div>
-          <div className=" h-64 rounded-xl w-full bg-[#73e3e9] flex flex-col items-center p-8 gap-6">
+          <div className=" h-64 rounded-xl w-full bg-[#7fc37e] flex flex-col items-center p-8 gap-6">
             <MessageSquarePlus size={"48px"} />
             <p className=" text-2xl font-semibold tracking-wider">Feedback</p>
             <p>
@@ -45,12 +42,12 @@ const About = () => {
               thoughts.
             </p>
           </div>
-          <div className=" h-64 rounded-xl w-full bg-[#73e3e9] flex flex-col items-center p-8 gap-6">
+          <div className=" h-64 rounded-xl w-full bg-[#7fc37e] flex flex-col items-center p-8 gap-6">
             <CalendarCheck size={"48px"} />
             <p className=" text-2xl font-semibold tracking-wider">Execution</p>
             <p>High priority execution without any hussle.</p>
           </div>
-          <div className=" h-64 rounded-xl w-full bg-[#73e3e9] flex flex-col items-center p-8 gap-6">
+          <div className=" h-64 rounded-xl w-full bg-[#7fc37e] flex flex-col items-center p-8 gap-6">
             <Users2 size={"48px"} />
             <p className=" text-2xl font-semibold tracking-wider">Support</p>
             <p>24x7 peer-to-peer support.</p>
@@ -61,32 +58,30 @@ const About = () => {
         <div className=" mt-12 flex justify-center items-center ">
           <img className=" h-[70%]" src={svg3} alt="" />
         </div>
-        <div className="mt-4 p-8 md:w-[50%]">
+        <div className="mt-4 p-8 md:w-[70%]">
           <p className="text-2xl font-bold tracking-wide">
             Let our team handle all the work and serve your needs.
           </p>
           <p className="mt-8 md:mt-12">
-            Entrust our Agile Team with a comprehensive understanding of your
-            requirements and objectives, enabling us to craft bespoke solutions
-            that align precisely with your specific needs.
+            Leave the heavy lifting to us. At LoopiEmail, our dedicated team is here to handle all the work and serve your needs. Your success is our mission and we are ready to roll up our sleeves and get to work for you!
           </p>
 
           <div className=" mt-8 md:mt-12 flex flex-col gap-8 md:grid md:grid-cols-2">
             <div className=" h-12 w-full outline outline-1 rounded-lg flex items-center p-4  ">
               <img src={svg4} alt="" />
-              <p className=" text-xl capitalize ml-8 ">Active collaboration</p>
+              <p className="capitalize ml-8 ">Active collaboration</p>
             </div>
             <div className=" h-12 w-full outline outline-1 rounded-lg flex items-center p-4 ">
               <img src={svg4} alt="" />{" "}
-              <p className=" text-xl capitalize ml-8 ">on schedule delivery</p>
+              <p className="capitalize ml-8 ">on schedule delivery</p>
             </div>
             <div className=" h-12 w-full outline outline-1 rounded-lg flex items-center p-4  ">
               <img src={svg4} alt="" />
-              <p className=" text-xl capitalize ml-8 ">after sales services</p>
+              <p className="capitalize ml-8 ">after sales services</p>
             </div>
             <div className=" h-12 w-full outline outline-1 rounded-lg flex items-center p-4  ">
               <img src={svg4} alt="" />
-              <p className=" text-xl capitalize ml-8 ">24x7 On-support </p>
+              <p className="capitalize ml-8 ">24x7 On-support </p>
             </div>
           </div>
         </div>
@@ -105,36 +100,28 @@ const About = () => {
             in the market.
           </p>
           <div className="mt-8 w-full h-16 p-2 outline outline-1 rounded-md">
-            <p>Web Design</p>
-            <Slider
-              defaultValue={90}
-              aria-label="Default"
-              valueLabelDisplay="auto"
-            />
+            <p className=" text-sm font-semibold mb-3">Proven Strategies</p>
+            <div className=" h-2 w-full bg-slate-200 rounded-xl">
+              <div className=" h-full w-[95%] bg-[#7fc37e] rounded-xl"></div>
+            </div>
           </div>
           <div className=" mt-8 w-full h-16 p-2 outline outline-1 rounded-md">
-            <p className=" text-sm font-semibold">Mobile App</p>
-            <Slider
-              defaultValue={90}
-              aria-label="Default"
-              valueLabelDisplay="auto"
-            />{" "}
+            <p className=" text-sm font-semibold mb-3">Email Design</p>
+            <div className=" h-2 w-full bg-slate-200 rounded-xl">
+              <div className=" h-full w-[85%] bg-[#7fc37e] rounded-xl"></div>
+            </div>
           </div>
           <div className=" mt-8 w-full h-16 p-2 outline outline-1 rounded-md">
-            <p>Graphic Design</p>
-            <Slider
-              defaultValue={80}
-              aria-label="Default"
-              valueLabelDisplay="auto"
-            />
+            <p className=" text-sm font-semibold mb-3">Copywriting</p>
+            <div className=" h-2 w-full bg-slate-200 rounded-xl">
+              <div className=" h-full w-[90%] bg-[#7fc37e] rounded-xl"></div>
+            </div>
           </div>
           <div className=" mt-8 w-full h-16 p-2 outline outline-1 rounded-md">
-            <p>Digital Marketing</p>
-            <Slider
-              defaultValue={65}
-              aria-label="Default"
-              valueLabelDisplay="auto"
-            />
+            <p className=" text-sm font-semibold mb-3">After Sales Services</p>
+            <div className=" h-2 w-full bg-slate-200 rounded-xl">
+              <div className=" h-full w-[90%] bg-[#7fc37e] rounded-xl"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -147,9 +134,7 @@ const About = () => {
             We believe in Long Term Partnership.
           </p>
           <p className="mt-8 mb-12">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam,
-            beatae repellendus! Doloremque sed, adipisci rem quae quibusdam
-            commodi veritatis alias iste quos praesentium maxime corrupti.
+            At LoopiEmail, we're not just about quick wins; we're here for the long haul. We are committed to building lasting parterships that drives success!
           </p>
           <BasicTabs />
         </div>
@@ -171,7 +156,6 @@ const About = () => {
           <img className=" h-24 md:h-44" src={logo3} alt="" />
           <img className=" h-24 md:h-44" src={logo1} alt="" />
           <img className=" h-24 md:h-44" src={logo3} alt="" />
-          <img className=" h-24 md:h-44" src={logo5} alt="" />
         </div>
       </div>
     </div>

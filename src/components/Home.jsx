@@ -1,5 +1,5 @@
 import React from "react";
-import svg1 from "../assets/building-web.svg";
+import svg1 from "../assets/illus2.png";
 import svg2 from "../assets/finalWave.jpg";
 import About from "./About";
 import Services from "./Services";
@@ -13,21 +13,22 @@ import { HashLink } from "react-router-hash-link";
 const Home = () => {
   return (
     <>
-      <div id="Home" className="md:flex md:pr-12 md:pl-44 bg-[#BAF1F4] pt-10">
+      <div id="Home" className="md:flex md:pr-12 md:pl-44 bg-[#7fc37e] pt-10">
         <div className=" p-12 flex flex-col justify-center md:p-24 gap-8 md:w-[50%] ">
           <p className=" text-2xl md:text-4xl font-bold tracking-wider">
-            Your Success is Our Mission.
+            Unlock Your Email Marketing Success with{" "}
+            <span className=" text-red-700 text-3xl">LoopiEmail !</span>
           </p>
           <p className="tracking-wider">
-            Utilize agile frameworks to create comprehensive summaries for
-            top-level insights. Embrace iterative methods in corporate strategy
-            to promote collaborative ideation.
+            Welcome to LoopiEmail, where email marketing excellence begins. We are your trusted partner in email marketing solutions, dedicated to transforming your buisness by leveraging the power of email.
           </p>
-          <div className=" flex gap-8">
-            <HashLink to={"#Contact"}><button className=" h-12 w-36 bg-yellow-300 rounded-xl">Get Started</button></HashLink>
-            <HashLink to={"https://youtu.be/pqgSKzugDPg?si=rweTDld_MnD2ThiJ"} target="_blank"><button className=" h-12 w-36 rounded-xl outline outline-black outline-2 hover:bg-black hover:text-white duration-100">
-            Watch video
-          </button></HashLink>
+          <div className=" flex flex-col gap-4">
+          <p>Ready to boost your Email marketing Game? Let's get Started</p>
+            <HashLink to={"#Contact"}>
+              <button className=" h-12 w-64 bg-[#fefee2] rounded-xl">
+                Get Started
+              </button>
+            </HashLink>
           </div>
         </div>
         <div className=" md:p-12 md:mt-0 mt-12 flex justify-center items-center">
@@ -37,13 +38,13 @@ const Home = () => {
       <div className=" w-full">
         <img className=" w-full " src={svg2} alt="" />
       </div>
-      <About/>
-      <Services/>
-      <Team/>
-      <Portfolio/>
-      <Feedback/>
-      <Contact/>
-      <Footer/>
+      <About />
+      <Services />
+      <Team />
+      <Portfolio />
+      <Feedback />
+      <Contact />
+      <Footer />
     </>
   );
 };

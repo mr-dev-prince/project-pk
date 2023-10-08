@@ -1,5 +1,5 @@
 import React from "react";
-import pic1 from "../assets/46.jpg";
+import pic1 from "../assets/keshav.jpg";
 
 const Feedback = () => {
   return (

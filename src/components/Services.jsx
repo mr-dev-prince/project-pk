@@ -10,13 +10,11 @@ import clock from "../assets/clock.svg";
 
 const Services = () => {
   return (
-    <div id="Services" className=" bg-[#dff4f5] md:pt-24">
+    <div id="Services" className=" bg-[#def1dd] md:pt-24">
       <div className="w-full flex flex-col justify-center items-center">
         <p className=" text-5xl font-bold p-12">Our Services</p>
         <p className=" text-xl tracking-wide w-[50%] text-center">
-          Quickly maximize timely deliverables for real-time schemas.
-          Dramatically maintain clicks-and-mortar solutions without functional
-          solutions.
+          At LoopiEmail, we've curated a suite of email marketing services designed to supercharge your marketing efforts and maximize your ROI.
         </p>
         <div className=" flex flex-wrap gap-24 mt-12 mb-24 p-8 justify-center items-center">
           <div className=" md:h-72 md:w-80 bg-white rounded-md flex flex-col justify-around items-center text-center md:p-2 md:pt-16 p-8 md:gap-2 gap-8 relative pt-16">
@@ -25,10 +23,9 @@ const Services = () => {
               <img className=" h-16" src={png3} alt="" />
             </div>
 
-            <p className="text-2xl font-semibold">Web Design</p>
+            <p className="text-2xl font-semibold">Email Campaigns Creation</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Molestiae error odio similique, aspernatur sit,
+              Craft personalized and engaging campaigns that resonate with your audience.
             </p>
             <Button variant="text">Learn More</Button>
           </div>
@@ -36,10 +33,9 @@ const Services = () => {
             <div className="absolute -top-12 h-24 w-24 outline outline-8 bg-white outline-[#dff4f5] rounded-full grid items-center justify-center ">
               <img className=" h-16" src={png2} alt="" />
             </div>
-            <p className="text-2xl font-semibold">Grahic Design</p>
+            <p className="text-2xl font-semibold">List Segmentation</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Molestiae error odio similique, aspernatur sit,
+              Target the right customers at the right time with precision segmentation.
             </p>
             <Button variant="text">Learn More</Button>
           </div>
@@ -47,16 +43,15 @@ const Services = () => {
             <div className="absolute -top-12 h-24 w-24 outline outline-8 bg-white outline-[#dff4f5] rounded-full grid items-center justify-center ">
               <img className=" h-16" src={png1} alt="" />
             </div>
-            <p className="text-2xl font-semibold">UI / UX</p>
+            <p className="text-2xl font-semibold">Automated Workflow</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Molestiae error odio similique, aspernatur sit,
+              Streamline your Marketing efforts with automated email sequences.
             </p>
             <Button variant="text">Learn More</Button>
           </div>
         </div>
       </div>
-      <div className=" w-full  bg-[#0a474a] flex flex-wrap p-8 md:p-24 gap-12 justify-center items-center">
+      <div className=" w-full hidden  bg-[#7fc37e]  flex-wrap p-8 md:p-24 gap-12 justify-center items-center">
         <div className="flex gap-4">
           <div className="text-xl">
             <img className=" h-16 filter invert" src={clipboard} alt="" />

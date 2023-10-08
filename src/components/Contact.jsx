@@ -34,7 +34,7 @@ const Contact = () => {
   return (
     <div
       id="Contact"
-      className=" md:pl-64 mt-8 grid md:flex flex-col justify-center items-center gap-9 mb-12"
+      className=" pt-24 md:pl-64 mt-8 grid md:flex flex-col justify-center items-center gap-9 mb-12"
     >
       <p className=" text-center text-5xl font-semibold">Contact Us</p>
       <div className="flex flex-col md:flex-row justify-center items-center gap-12 ">
@@ -42,14 +42,14 @@ const Contact = () => {
           <form
             ref={form}
             onSubmit={sendEmail}
-            className=" flex flex-col gap-6 w-80 bg-[#FDE047] p-4 rounded-md"
+            className=" flex flex-col gap-6 w-80 bg-[#7fc37e] p-4 rounded-md"
           >
             <div className="flex flex-col gap-1">
               <label className=" font-semibold">Your Name</label>
               <input
                 type="text"
                 name="user_name"
-                className=" outline outline-2 rounded-md p-1"
+                className=" capitalize outline outline-2 rounded-md p-1"
               />
             </div>
             <div className=" flex flex-col gap-1">
@@ -94,12 +94,13 @@ const Contact = () => {
           </div>
 
           <div className=" text-xl tracking-wider ">
+            <p className=" mb-4">Get in touch with LoopiEmail!</p>
             <p className="flex items-center gap-5">
-              <AiOutlineMail /> circuitminds@company.com
+              <AiOutlineMail /> kpriyesh.designs@gmail.com
             </p>
             <p className="flex items-center gap-5">
               <AiOutlineInstagram />
-              circuit.minds
+              loopie.mail
             </p>
             <p className="flex items-center gap-5">
               <BsWhatsapp /> +078 9123 45434

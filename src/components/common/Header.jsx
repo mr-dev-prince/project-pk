@@ -10,11 +10,18 @@ import HomeIcon from "@mui/icons-material/Home";
 import DescriptionIcon from "@mui/icons-material/Description";
 import React from "react";
 import { HashLink } from "react-router-hash-link";
-import { Menu } from "lucide-react";
+import logo from "../common/logo/loopiemail1.png"
+import {AiOutlineMenuUnfold} from "react-icons/ai"
+
+
+// header - #333333
+// primary = #7fc37e
+//secondary - #7fc37e
+// accent - #fefee2
 
 const Header = () => {
   const [state, setState] = React.useState({
-    right: false,
+    left: false,
   });
 
   const toggleDrawer = (anchor, open) => (event) => {
@@ -68,10 +75,8 @@ const Header = () => {
     </Box>
   );
   return (
-    <div className=" fixed h-12 w-full bg-[#1a76a4] text-white flex justify-between z-50 p-8 md:p-12 md:justify-around  items-center ">
-      <p className=" text-2xl font-semibold tracking-wider">
-        CircuitMinds Agency{" "}
-      </p>
+    <div className=" fixed h-12 w-full bg-[#333333] text-white flex justify-between z-50 p-8 md:p-12 md:justify-around  items-center">
+      <img className=" h-14" src={logo} alt="" />
       <div className="gap-12 hidden md:flex font-semibold text-lg">
         <HashLink to={"#Home"}>Home</HashLink>
         <HashLink to={"#About"}>About</HashLink>
@@ -85,23 +90,32 @@ const Header = () => {
           </button>
         </HashLink>
       </div>
-      <button className=" md:hidden" onClick={() => toggleDrawer()}>
-        <div>
-          {["Menu"].map((anchor) => (
-            <React.Fragment key={anchor}>
-              <button onClick={toggleDrawer(anchor, true)}><Menu /></button>
-              <SwipeableDrawer
-                anchor={anchor}
-                open={state[anchor]}
-                onClose={toggleDrawer(anchor, false)}
-                onOpen={toggleDrawer(anchor, true)}
-              >
-                {list(anchor)}
-              </SwipeableDrawer>
-            </React.Fragment>
-          ))}
-        </div>
-      </button>
+      <div className=" w-48 flex gap-8 md:hidden ">
+        <HashLink to={"#Contact"}>
+          <button className=" text-black h-9 rounded-full w-28 bg-[#fefee2]" >
+            Get Started
+          </button>
+        </HashLink>
+        <button onClick={() => toggleDrawer()}>
+          <div>
+            {["left"].map((anchor) => (
+              <React.Fragment key={anchor}>
+                <button className=" text-4xl" onClick={toggleDrawer(anchor, true)}>
+                  <AiOutlineMenuUnfold/>
+                </button>
+                <SwipeableDrawer
+                  anchor={anchor}
+                  open={state[anchor]}
+                  onClose={toggleDrawer(anchor, false)}
+                  onOpen={toggleDrawer(anchor, true)}
+                >
+                  {list(anchor)}
+                </SwipeableDrawer>
+              </React.Fragment>
+            ))}
+          </div>
+        </button>
+      </div>
     </div>
   );
 };

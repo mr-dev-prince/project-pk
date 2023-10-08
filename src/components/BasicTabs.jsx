@@ -56,34 +56,26 @@ export default function BasicTabs() {
           aria-label="basic tabs example"
         >
           <Tab label="Experience" {...a11yProps(0)} />
-          <Tab label="flexibility" {...a11yProps(1)} />
-          <Tab label="Results" {...a11yProps(2)} />
+          <Tab label="Customization" {...a11yProps(1)} />
+          <Tab label="Team Dedication" {...a11yProps(2)} />
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-        architecto, suscipit magni, consequatur temporibus quisquam molestias
-        placeat quaerat eius aliquam, natus quo dolores reprehenderit?
-        Voluptates.
+        With years of industry experience, our team possesses a deep understanding of the email marketing landscape.
         <br />
         <Button variant="text">
           Learn More <ArrowRightAltIcon />
         </Button>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, debitis
-        labore. Quam, dolor fugit? Eaque placeat odit neque quis corporis
-        doloribus necessitatibus illum quaerat quos totam autem, saepe, laborum
-        doloremque magnam eligendi vero sapiente nesciunt!
+        We adapt our strategies to <span className=" text-green-500">your</span> buisness needs ensuring email-marketing success.
         <br />
         <Button variant="text">
           Learn More <ArrowRightAltIcon />
         </Button>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum hic
-        ipsum quas voluptatibus! Quam, iste! Eaque tempore maiores, reiciendis
-        similique nisi iste rem vel maxime amet magnam perferendis praesentium.
+        We at LoopiEmail are dedicated to the growth and marketing of your buisness through our engaging and attractive emails.
         <br />
         <Button variant="text">
           Learn More <ArrowRightAltIcon />
