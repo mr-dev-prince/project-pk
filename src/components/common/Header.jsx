@@ -75,7 +75,7 @@ const Header = () => {
     </Box>
   );
   return (
-    <div className=" fixed h-12 w-full bg-[#333333] text-white flex justify-between z-50 p-8 md:p-12 md:justify-around  items-center">
+    <div className=" fixed h-12 md:pl-20 md:h-20 w-full bg-[#333333] text-white flex justify-between z-50 p-8 md:p-4  items-center">
       <img className=" h-14" src={logo} alt="" />
       <div className="gap-12 hidden md:flex font-semibold text-lg">
         <HashLink to={"#Home"}>Home</HashLink>
